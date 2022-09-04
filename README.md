@@ -43,6 +43,6 @@ podman run -it --rm -v ca-certs:/mnt/ -e "HTTPS_CA_DIR=/mnt" -e "HTTPS_CA_FILE=m
 
 #### Documentation
 
-https://developer.vmware.com/docs/11800/vsphere-sdk-for-perl-installation-guide/
-https://developer.vmware.com/web/sdk/7.0/vsphere-perl/
-https://kb.vmware.com/s/article/80144/
+https://developer.vmware.com/docs/11800/vsphere-sdk-for-perl-installation-guide/  
+https://developer.vmware.com/web/sdk/7.0/vsphere-perl/  
+https://kb.vmware.com/s/article/80144/  
