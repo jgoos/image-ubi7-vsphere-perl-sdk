@@ -1,6 +1,6 @@
 ### vSphere perl SDK image
 
-> **note** Deprecation notice: The vSphere SDK for Perl is deprecated.
+> **note** [Deprecation notice](https://kb.vmware.com/s/article/80144): The vSphere SDK for Perl is deprecated.
 > Use this image to migrate away from this SDK.
 
 #### Download
@@ -17,8 +17,10 @@ podman build -t vsphere-perl-sdk .
 
 #### Variables
 
-`HTTPS_CA_FILE` – The CA file.
-`HTTPS_CA_DIR` – The CA directory.
+| Name          | Info             |
+|:------------- |:---------------- |
+| HTTPS_CA_FILE | The CA file      |
+| HTTPS_CA_DIR  | The CA directory |
 
 #### Run
 
