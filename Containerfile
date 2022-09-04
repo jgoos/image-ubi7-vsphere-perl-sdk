@@ -1,9 +1,5 @@
 FROM registry.access.redhat.com/ubi7/ubi
 
-#
-# https://developer.vmware.com/docs/11800/vsphere-sdk-for-perl-installation-guide/
-#
-
 MAINTAINER J Goossens "<jgoos.code@gmail.com>"
 
 LABEL vsphere_perl_sdk_version=7.0U2

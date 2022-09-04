@@ -15,6 +15,30 @@ podman build -t vsphere-perl-sdk .
 
 ```
 
+#### Variables
+
+`HTTPS_CA_FILE` – The CA file.
+`HTTPS_CA_DIR` – The CA directory.
+
+#### Run
+
+Steps:
+- Download the CA certificate .zip from the vcenter
+- Unzip the CA certifcate .zip
+- Run the podman command
+
+``` shell
+
+# Example Usage
+
+$ unzip ca-certs.zip
+$ ls ca-certs/
+my-ca.crt
+
+podman run -it --rm -v ca-certs:/mnt/ -e "HTTPS_CA_DIR=/mnt" -e "HTTPS_CA_FILE=my-ca.crt" vsphere-perl-sdk /usr/lib/vmware-vcli/apps/general/connect.pl
+
+```
+
 #### Documentation
 
 https://developer.vmware.com/docs/11800/vsphere-sdk-for-perl-installation-guide/
