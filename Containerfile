@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi7/ubi
 
-MAINTAINER J Goossens "<jgoos.code@gmail.com>"
+LABEL org.opencontainers.image.authors="jgoos.code@gmail.com"
 
 LABEL vsphere_perl_sdk_version=7.0U2
 
